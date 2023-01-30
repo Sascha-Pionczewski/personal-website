@@ -1,3 +1,3 @@
 # My personal Website
 
-> This project is for the BootCamp Web Developer course from "Neue Fische".
+> A project for the web developer boot camp by Neue Fisch.
