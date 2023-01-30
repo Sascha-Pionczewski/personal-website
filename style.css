@@ -22,10 +22,14 @@ body {
   font-size: 20px;
 }
 
-a {
+.nav-list-item a {
   color: white;
   text-decoration: none;
   display: inline;
+}
+
+.nav-list-item a:hover {
+  color: #f1a601;
 }
 
 .header {
@@ -88,8 +92,36 @@ h3 {
 .interests {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   margin-bottom: 50px;
+  gap: 20px;
+}
+
+.interests-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+}
+
+.interests-list-item {
+  background-color: gray;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  list-style: none;
+}
+
+.skills-list-item {
+  background-color: gray;
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
 }
 
 #contact {
