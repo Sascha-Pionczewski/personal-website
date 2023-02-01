@@ -8,12 +8,13 @@
 .interests-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   gap: 20px;
   list-style: none;
+  max-width: 25em;
 }
 
-.interests-list-item {
+.interests-list li {
   background-color: gray;
   border-radius: 30px;
   padding: 5px 10px 5px 10px;
@@ -22,12 +23,13 @@
 .skills-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   gap: 20px;
   list-style: none;
+  max-width: 25em;
 }
 
-.skills-list-item {
+.skills-list li {
   background-color: gray;
   border-radius: 30px;
   padding: 5px 10px 5px 10px;

@@ -1,3 +1,20 @@
-#aboutMe {
+.about-me {
   margin-bottom: 50px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url("/img/programming-g38acdabc6_1920.png");
+  background-position: center;
+  background-size: 100em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-me > p {
+  width: 50em;
 }
